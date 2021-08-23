@@ -5,37 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
-<body>
+<body style="font-family: 'Kalam', cursive;">
     
     <!-- navigation bar -->
-    <section class="container mt-3">
+    <section class="container mt-3 mb-3">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"><b><i style="font-size: 20px;" class="fas fa-book-reader"></i> Study Box</b></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Youtube</a>
+                    <a class="nav-link active nav-btn" aria-current="page" href="https://www.youtube.com/" target="_blank"><i style="color: red;" class="fab fa-youtube"></i> Youtube</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Facebook</a>
+                    <a class="nav-link active nav-btn" aria-current="page" href="https://drive.google.com/drive/u/0/my-drive" target="_blank"><i class="fab fa-google-drive"></i> Drive</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Whatsapp</a>
+                    <a class="nav-link nav-btn" href="https://www.facebook.com/" target="_blank"><i style="color: rgb(58, 58, 255);" class="fab fa-facebook"></i> Facebook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-btn" href="https://web.whatsapp.com/" target="_blank"><i style="color: rgb(1, 161, 1);" class="fab fa-whatsapp"></i> Whatsapp</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Exam
+                    <a class="nav-link dropdown-toggle nav-btn" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i style="color: rgb(5, 187, 87);" class="fas fa-clipboard-check"></i> Exam
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">College Exam</a></li>
-                      <li><a class="dropdown-item" href="#">EFB Exam</a></li>
+                    <ul style="border: none; background-color: gainsboro; overflow: hidden;" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item nav-btn" href="http://qb.eshiksabd.com/home?a=xyz" target="_blank">College Exam</a></li>
+                      <li><a class="dropdown-item nav-btn" href="" target="_blank">EFB Exam</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -45,8 +52,107 @@
     </section>
 
 
+    <!-- embed section -->
 
-    <script src="script.js"></script>
+    
+    
+
+    <!-- end of embed section  -->
+
+
+
+
+    <!-- cards -->
+    <section class="container mt-3 mb-3 overflow-hidden">
+        <div class="row gy-5">
+          <div class="col">
+            <div class="cards">
+              <div class="card-name">
+                <h3>college Class</h3>
+              </div><hr>
+              <div class="btn-section">
+                <center>
+                  <a href="" class="buttons">Facebook Page</a><br><br><br>
+                <a href="" class="buttons">Class Sheet</a><br><br><br>
+                <a href="" class="buttons">Routine</a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <div class="cards">
+                <div class="card-name">
+                  <h3>college Class</h3>
+                </div><hr>
+                <div class="btn-section">
+                  <center>
+                    <a href="" class="buttons">Facebook Page</a><br><br><br>
+                  <a href="" class="buttons">Class Sheet</a><br><br><br>
+                  <a href="" class="buttons">Routine</a>
+                  <a href="" class="buttons">Facebook Page</a><br><br><br>
+                  <a href="" class="buttons">Facebook Page</a>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <div class="cards">
+              <div class="card-name">
+                <h3>college Class</h3>
+              </div><hr>
+              <div class="btn-section">
+                <center>
+                  <a href="" class="buttons">Facebook Page</a><br><br><br>
+                <a href="" class="buttons">Class Sheet</a><br><br><br>
+                <a href="" class="buttons">Routine</a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5">
+          <div class="col">
+            <div class="cards">
+              <div class="card-name">
+                <h3>college Class</h3>
+              </div><hr>
+              <div class="btn-section">
+                <center>
+                  <a href="" class="buttons">Facebook Page</a><br><br><br>
+                <a href="" class="buttons">Class Sheet</a><br><br><br>
+                <a href="" class="buttons">Routine</a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <div class="cards">
+                <div class="card-name">
+                  <h3>college Class</h3>
+                </div><hr>
+                <div class="btn-section">
+                  <center>
+                    <a href="" class="buttons">Facebook Page</a><br><br><br>
+                  <a href="" class="buttons">Class Sheet</a><br><br><br>
+                  <a href="" class="buttons">Routine</a>
+                  <a href="" class="buttons">Facebook Page</a><br><br><br>
+                  <a href="" class="buttons">Facebook Page</a>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
