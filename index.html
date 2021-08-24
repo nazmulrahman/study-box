@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 </head>
-<body style="font-family: 'Kalam', cursive;">
+<body style="font-family: 'Kalam', cursive; background-color: rgb(29, 29, 51);">
     
     <!-- navigation bar -->
     <section class="container mt-3 mb-3">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><b><i style="font-size: 20px;" class="fas fa-book-reader"></i> Study Box</b></a>
+              <a style="color: white;" class="navbar-brand" href="#"><b><i style="font-size: 20px; " class="fas fa-book-reader"></i> Study Box</b></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -54,7 +54,63 @@
 
     <!-- embed section -->
 
+    <section class="container mt-3 mb-3">
+
+      <!-- college class -->
+      <div id="college-class" class="embed">
+        <div>
+          <button id="clg-x" class="btn btn-danger"><i style="color: white;" class="fas fa-times"></i></button>
+        </div><br>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSsA-CrGoumiF-2IpbTdRGl_1SUPSMfehB1kg5QYcPLPxA3f-HjbpdGlE1CORrvH4K5Yf5qBTJMtmCa/pubhtml?widget=true&amp;headers=false" width="100%" height="480px"></iframe>
+      </div>
     
+      <!-- EFB class sheet  -->
+      <div class="embed">
+        <div>
+          <button class="btn btn-danger"><i style="color: white;" class="fas fa-times"></i></button>
+        </div><br>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSyeJgy1lpKl5O6erczNhLxJ50nu1T3teSk6LZYirhFhafNCMIblPoHIDlHpe8-yVkN2vL3g-ndIH9B/pubhtml?widget=true&amp;headers=false" width="100%" height="480px"></iframe>
+      </div>
+    
+      <!-- Math class sheet  -->
+      <div class="embed">
+        <div>
+          <button class="btn btn-danger"><i style="color: white;" class="fas fa-times"></i></button>
+        </div><br>
+      </div>
+    
+      <!-- assignment list -->
+      <div class="embed">
+        <div>
+          <button class="btn btn-danger"><i style="color: white;" class="fas fa-times"></i></button>
+        </div><br>
+        
+        <table class="table table-bordered border-primary">
+          <thead>
+            <tr>
+              <th scope="col">Week</th>
+              <th scope="col">Assignment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+    </section>
     
 
     <!-- end of embed section  -->
@@ -63,87 +119,88 @@
 
 
     <!-- cards -->
-    <section class="container mt-3 mb-3 overflow-hidden">
+    <section class="container mt-3 mb-3 overflow-hidden card-section">
         <div class="row gy-5">
-          <div class="col">
+          <!-- college class  -->
+          <div class="col-md-6">
             <div class="cards">
               <div class="card-name">
                 <h3>college Class</h3>
               </div><hr>
               <div class="btn-section">
                 <center>
-                  <a href="" class="buttons">Facebook Page</a><br><br><br>
-                <a href="" class="buttons">Class Sheet</a><br><br><br>
-                <a href="" class="buttons">Routine</a>
+                  <br><br>
+                  <a href="https://www.facebook.com/dhakacollege1841" class="buttons">Facebook Page</a><br><br><br>
+                <button id="clg-sheet" class="buttons">Class Sheet</button><br><br><br>
+                <a href="" class="buttons">Routine</a><br><br>
                 </center>
               </div>
             </div>
           </div>
-          <div class="col">
+
+          <!-- EFb-2022  -->
+          <div class="col-md-6">
+            <div class="cards">
+              <div class="card-name">
+                <h3>EFB-2022</h3>
+              </div><hr>
+              <div class="btn-section">
+                <center>
+                  <a href="" class="buttons">Class Sheet</a><br><br><br>
+                <a href="https://www.youtube.com/channel/UCLaaHohUWf5KW2s8_mMNaXw" class="buttons">Playlist</a><br><br><br>
+                <a href="https://buet-physics22.herokuapp.com/" class="buttons">Web App</a>
+                <a href="https://drive.google.com/drive/folders/1yfOK5TF5dJxnfRH-WDhDyC3JeNxJPs0K?usp=sharing" class="buttons">Drive</a><br><br><br>
+                <a href="https://www.facebook.com/groups/aparchinmoy.22physics" target="_blank" class="buttons">Facebook Group</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+            <!-- Assignment -->
+          <div class="col-md-6">
             <div class="col">
               <div class="cards">
                 <div class="card-name">
-                  <h3>college Class</h3>
+                  <h3>Assignment</h3>
                 </div><hr>
                 <div class="btn-section">
                   <center>
-                    <a href="" class="buttons">Facebook Page</a><br><br><br>
-                  <a href="" class="buttons">Class Sheet</a><br><br><br>
-                  <a href="" class="buttons">Routine</a>
-                  <a href="" class="buttons">Facebook Page</a><br><br><br>
-                  <a href="" class="buttons">Facebook Page</a>
+                    <a href="http://qb.eshiksabd.com/home?a=xyz" target="_blank" class="buttons">Website</a><br><br><br>
+                    <a href="http://qb.eshiksabd.com/home?a=xyz" target="_blank" class="buttons">Website</a><br><br><br>
+                  <a href="http://www.dshe.gov.bd/" target="_blank" class="buttons">MAUSHI</a><br>
                   </center>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="col">
+
+            <!-- math emu -->
+          <div class="col-md-6">
             <div class="cards">
               <div class="card-name">
-                <h3>college Class</h3>
+                <h3>Math-Emu</h3>
               </div><hr>
               <div class="btn-section">
                 <center>
-                  <a href="" class="buttons">Facebook Page</a><br><br><br>
-                <a href="" class="buttons">Class Sheet</a><br><br><br>
-                <a href="" class="buttons">Routine</a>
+                  <br>
+                  <a href="" class="buttons">Facebook Group</a><br><br><br>
+                <a href="" class="buttons">Class List</a><br><br><br>
                 </center>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row gy-5">
-          <div class="col">
+
+          <!-- Crash course  -->
+          <div class="col-md-6">
             <div class="cards">
               <div class="card-name">
-                <h3>college Class</h3>
+                <h3>Crash Course</h3>
               </div><hr>
               <div class="btn-section">
                 <center>
-                  <a href="" class="buttons">Facebook Page</a><br><br><br>
-                <a href="" class="buttons">Class Sheet</a><br><br><br>
-                <a href="" class="buttons">Routine</a>
+                  <a href="https://www.facebook.com/groups/10ms.hsc2022crashcourse/" target="_blank" class="buttons">Facebook Group</a><br><br><br>
+                <a href="https://aparstechteam.github.io/hsccrashcourse22/?fbclid=IwAR3A8GNscX27zxHmblh7elOOd_gG0v806_FlsnyUy8Am46ITGbiK4Z_UOgw" target="_blank" class="buttons">Weeb App</a>
                 </center>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="col">
-              <div class="cards">
-                <div class="card-name">
-                  <h3>college Class</h3>
-                </div><hr>
-                <div class="btn-section">
-                  <center>
-                    <a href="" class="buttons">Facebook Page</a><br><br><br>
-                  <a href="" class="buttons">Class Sheet</a><br><br><br>
-                  <a href="" class="buttons">Routine</a>
-                  <a href="" class="buttons">Facebook Page</a><br><br><br>
-                  <a href="" class="buttons">Facebook Page</a>
-                  </center>
-                </div>
               </div>
             </div>
           </div>
